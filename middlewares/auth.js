@@ -19,7 +19,7 @@ module.exports = (req, res, next) => {
     next(new UnauthorizedError(ANSWER.DemandAuthorization));
   }
 
-  req.user = payload; // записываем пейлоуд в объект запроса
+  req.user = payload;
 
-  return next(); // пропускаем запрос дальше
+  return next();
 };
