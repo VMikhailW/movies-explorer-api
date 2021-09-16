@@ -13,6 +13,7 @@ const { PORT = 3000 } = process.env;
 const allowedCors = [
   "localhost:3000",
   "http://bd-diplom.nomoredomains.club/",
+  "https://bd-diplom.nomoredomains.club/",
 ];
 const app = express();
 app.use(helmet());

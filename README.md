@@ -2,7 +2,7 @@
 
 
  
-🔗Домен сервера - 
+🔗Домен сервера -   https://bd-diplom.nomoredomains.club/
 
 🔗Домен сервера -   http://bd-diplom.nomoredomains.club/
 
