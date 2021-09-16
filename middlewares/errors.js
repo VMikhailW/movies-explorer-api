@@ -5,7 +5,6 @@ const errorsMiddlewares = (err, req, res, next) => {
   res
     .status(statusCode)
     .send({
-    
       message: statusCode === 500
         ? ANSWER.ServerError
         : message,
