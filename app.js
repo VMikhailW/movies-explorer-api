@@ -11,10 +11,9 @@ const CONFIG_DEV = require("./utils/configDev");
 const { DB_CONNECTION_STRING, NODE_ENV } = process.env;
 const { PORT = 3000 } = process.env;
 const allowedCors = [
-  "localhost:3000",
-  "http://bd-diplom.nomoredomains.club/",
-  "https://bd-diplom.nomoredomains.club/",
+    "http://localhost:3000",
 ];
+
 const app = express();
 app.use(helmet());
 app.use(express.json());
